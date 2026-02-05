@@ -1,22 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int n;
-    cin>>n;
-    int divisor = 0;
-    for (int i=1; i<=n; i++){
-        if(n%i==0){
-            divisor++;
-        }
-    }
-    if (divisor==2){
-        cout<<"it is a prime number";
 
+void Printpattern1(){
+    int n ;
+    cin >> n;
+
+    for (int i=0; i< n; i++){
+        for (int j=0; j<n; j++){
+            cout<<'x'<<" ";
+        }
+
+    
+        cout<<endl;
     }
-    else{
-        cout<<"it is not a prime number";
-    }
+    
+    
+    
+
+
+}
+void printpattern2(){
+
+}
+int main(){
+  Printpattern1(); 
+  
 
 }
 
