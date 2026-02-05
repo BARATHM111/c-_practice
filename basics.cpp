@@ -44,7 +44,7 @@ void Printpattern3(){
         }
         // star
         for (int j=1; j<=2*i+1; j++){
-            cout<<j<<' ';
+            cout<<'x';
         }
         // spaces 
         for (int j=1; j<=n-i-i; j++){
