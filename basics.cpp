@@ -48,7 +48,7 @@ void Printpattern3(){
         }
         // spaces 
         for (int j=1; j<=n-i-i; j++){
-            cout<<j<<' ';
+            cout<<' ';
         }
         cout<<endl;
     }
