@@ -25,7 +25,9 @@ void printpattern2(){
 }
 int main(){
   Printpattern1(); 
-  
+  // in basics.cpp
+cout << "Hello from  test" << endl;
+
 
 }
 
