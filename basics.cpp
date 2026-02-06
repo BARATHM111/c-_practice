@@ -98,9 +98,8 @@ void Printpattern4(){
 
 }
 void Printpattern5(int n){
- 
-
     
+
     for (int i=0; i<(2*n-1); i++){
         int stars = 1;
         if(i>n){
@@ -117,6 +116,8 @@ void Printpattern5(int n){
 
 }
 int main(){
+    int n;
+    cin >> n;
 
   
   Printpattern5(5);
