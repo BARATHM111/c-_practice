@@ -120,7 +120,7 @@ int main(){
     cin >> n;
 
   
-  Printpattern5(5);
+  Printpattern5(n);
 
 
 
