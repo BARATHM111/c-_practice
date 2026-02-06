@@ -120,8 +120,8 @@ void Printpattern5(int n)
 void Printpattern6(int n){
     
     for (int i=0; i<n; i++){
-        for (int j=0; j<=i; j++){
-            cout<<(i+j)%2<<' ';
+        for (int j=0; j<i; j++){
+            cout<<(1-(i+j)%2)<<' ';
         }
         cout<<endl;
     
