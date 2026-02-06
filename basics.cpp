@@ -69,7 +69,7 @@ void Printpattern4(){
             cout<<'x';
         }
         // spaces 
-        for (int j=0; j<n; j++){
+        for (int j=0; j<i; j++){
             cout<<' ';
         }
         cout<<endl;
