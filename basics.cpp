@@ -59,6 +59,25 @@ void Printpattern3(){
 void Printpattern4(){
     int n;
     cin>>n;
+
+
+    for (int i=0; i<n; i++){
+        // spaces 
+        for (int j=0; j<n-i-1; j++){
+            cout<<' ';
+        }
+        // star
+        for (int j=0; j<2*i+1; j++){
+            cout<<'x';
+        }
+        // spaces 
+        for (int j=0; j<n-i-i; j++){
+            cout<<' ';
+        }
+        cout<<endl;
+    }
+
+
     for (int i=0; i<n; i++){
         // spaces 
         for (int j=0; j<i; j++){
@@ -81,9 +100,9 @@ void Printpattern4(){
 
 int main(){
 
- 
+  Printpattern3();
   Printpattern4();
-   
+
 
 
 
