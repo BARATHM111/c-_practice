@@ -103,7 +103,7 @@ void Printpattern5(int n)
 
     for (int i = 0; i < (2 * n - 1); i++)
     {
-        int stars = 1;
+        int stars;
         if (i >= n)
             stars = 2 * n - i;
         else
