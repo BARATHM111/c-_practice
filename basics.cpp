@@ -104,7 +104,8 @@ void Printpattern5(int n){
         int stars = 1;
         if(i>n)
             stars = 2*n - i;
-        
+        else 
+        stars = i+1;
         
         for (int j=1; j<=stars; j++){
             cout<<'x';
