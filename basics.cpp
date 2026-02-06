@@ -119,8 +119,8 @@ void Printpattern5(int n)
 }
 int main()
 {
-    int n;
-    cin >> n;
+    int n =5;
+    
 
     Printpattern5(n);
 }
